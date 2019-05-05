@@ -1,0 +1,36 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red
+}
+.green {
+    background-color: green
+}
+.blue {
+    background-color: blue
+}
+.yellow {
+    background-color: yellow
+}
+.purple {
+    background-color: purple
+}
+.crimson {
+    background-color: crimson
+}
+.lime {
+    background-color:lime
+}
+.orange {
+    background-color:orange
+}
+.white {
+    background-color: white;
+}

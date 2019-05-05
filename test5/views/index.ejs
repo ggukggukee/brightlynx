@@ -1,0 +1,43 @@
+<% include partials/header %>
+
+<% if(success && success.length > 0){ %>
+    <div class="container alert alert-success my-3" role="alert">
+        <%= success %>
+    </div>
+<% } %>
+<div class="jumbotron">
+    <div class="container videocontent text-center">
+        <h2 class="display-4">Nature</h2>
+        <br>
+        <video controls autoplay muted loop id="myVideo" style="width: 50%; height: auto; border-radius: 5px">
+            <source src="https://assets.mixkit.co/videos/524/524-1080.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="container">
+    <div class="card-columns">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1555985202-12975b0235dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1049&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Valley</h5>
+                <p class="card-text">A valley is a low area between hills or mountains typically with a river running through it. In geology, a valley or dale is a depression that is longer than it is wide. The terms U-shaped and V-shaped are descriptive terms of geography to characterize the form of valleys.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556132989-6c20e093fd08?ixlib=rb-1.2.1&auto=format&fit=crop&w=1022&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Plateau</h5>
+                <p class="card-text">In geology and physical geography, a plateau, also called a high plain or a tableland, is an area of a highland, usually consisting of relatively flat terrain, that is raised significantly above the surrounding area, often with one or more sides with steep slopes.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556093045-ceb6ca83426f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Waterfall</h5>
+                <p class="card-text">A waterfall is an area where water flows over a vertical drop or a series of steep drops in the course of a stream or river. Waterfalls also occur where meltwater drops over the edge of a tabular iceberg or ice shelf.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<% include partials/footer %>
